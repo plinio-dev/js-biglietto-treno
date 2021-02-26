@@ -26,20 +26,20 @@ if ( isNaN (eta) ) {
 
 // 3 calcolare il prezzo totale del viaggio
 if ( eta >= 18 && eta <= 65 ) {
-  alert( "Questo è il prezzo del tuo biglietto " + costokm);
+  alert( "Questo è il prezzo del tuo biglietto " + costokm + " euro");
 } else if ( isNaN(eta) ) {
   alert("hai di nuovo sbagliato! Ricarica la pagina")
 }
 
   else if ( eta <= 18 ) {
-  alert( "Questo è il prezzo del tuo biglietto " + (costokm - ( costokm / 100 * 20)) );
+  alert( "Questo è il prezzo del tuo biglietto " + (costokm - ( costokm / 100 * 20)) + " euro" );
 }
   else if ( isNaN(eta) ) {
     alert("hai di nuovo sbagliato! Ricarica la pagina")
 }
 
   else if (eta >= 65) {
-  alert( "Questo è il prezzo del tuo biglietto " + (costokm - ( costokm / 100 * 40)) );
+  alert( "Questo è il prezzo del tuo biglietto " + (costokm - ( costokm / 100 * 40)) + " euro" );
 }
   else if ( isNaN(eta) ) {
     alert("hai di nuovo sbagliato! Ricarica la pagina")
